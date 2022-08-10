@@ -1,0 +1,130 @@
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.header
+{
+ padding:80px;background-color:aqua;text-align:center;color:white;}
+.header h1
+{
+font-size:40px;}
+.navbar {
+  overflow: hidden;
+  background-color:black;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+.navbar a.right {
+  float: right;
+}
+
+
+.navbar a:hover {
+  background-color:white;
+  color: black;
+}
+*{
+  box-sizing: border-box;
+}
+
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color:white;
+  padding: 20px;
+}
+
+
+
+.main {  
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+.fakeimg {
+  background-color:white;
+  width: 100%;
+  padding: 20px;
+}
+.footer {
+  padding: 20px;
+  text-align: center;
+  background:pink;
+}
+@media screen and (max-width: 700px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+ 
+
+</style>
+</head>
+<body>
+<div class="header">
+<h1>A new web site</h1>
+<p>created by harshitha</p></div>
+<div class="navbar">
+  <a href="#">Link</a>
+  <a href="#">Link</a>
+  <a href="#">Link</a>
+</div>
+<div class="row">
+  <div class="side">...</div>
+  <div class="main">...</div>
+</div>
+<div class="row">
+  <div class="side">
+    <h2>About</h2>
+    <h5>Image:</h5>
+    <div class="fakeimg" style="height:200px;"><Image src="/home/3-cse-b/Desktop/1200px-Wikivoyage-logo-en-TTO-attempt.svg.png" height="100" width="100"></image></div>
+    <p>Some text about wikimedia about the wiki voage</p>
+    <h3>More Text</h3>
+    <p>Wiki voage is one of the wikimedia project that concentrates on the description about different places</p>
+    <div class="fakeimg" style="height:80px;"><image src="/home/3-cse-b/Desktop/images.jpeg" height="100" width="100"></image></div><br>
+  </div>
+<div class="main">
+    <h2>TITLE HEADING</h2>
+    <h5>Title description, aug 3, 2022</h5>
+    <div class="fakeimg" style="height:200px;"><image src="/home/3-cse-b/Desktop/1200px-Wikivoyage-logo-en-TTO-attempt.svg.png" height="200" width="200"></image></div>
+    <p>Some text..</p>
+    <p>Wikivoyage is a free web-based travel guide for travel destinations and travel topics written by volunteer authors. It is a sister project of Wikipedia and supported and hosted by the same non-profit Wikimedia Foundation (WMF). Wikivoyage has been called the "Wikipedia of travel guides".</p>
+    <br>
+    <h2>TITLE HEADING</h2>
+    <h5>Title description, aug 3, 2022</h5>
+    <div class="fakeimg" style="height:200px;"><image src="/home/3-cse-b/Desktop/images.jpeg" height="200" width="200"></image></div>
+    <p>Some text..</p>
+    <p>The project began when editors at the German and then Italian versions of Wikitravel decided in September 2006 to move their editing activities and then current content to a new site, in accordance with the site copyright license, a procedure known as "forking". The resulting site went live as "Wikivoyage" on December 10, 2006, and was owned and operated by a German association set up for that purpose, Wikivoyage e.V. (which continues to be its representative association). Content was published under the copyleft license Creative Commons Attribution-ShareAlike.  </p>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>This page was last edited on 3 august 2022, at 10:00 (UTC).</h2>
+</div>
+</body>
+</html>
